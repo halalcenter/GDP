@@ -12,7 +12,7 @@ const InkSpace = () => {
         >
           <div className="order-2 md:order-1">
             <motion.img
-              src="src\assets\logo.png"
+              src="https://lh3.google.com/u/0/d/1IAv3rj2NcPAXUj6BXN4tghsAWjqGquzs=w1920-h877-iv1"
               alt="GDP's InkSpace"
               className="w-full max-w-md mx-auto"
               initial={{ opacity: 0, scale: 0.9 }}
