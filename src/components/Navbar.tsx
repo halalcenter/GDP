@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center">
           <img
-  src="public/Gdp.png"
+  src="https://lh3.google.com/u/0/d/1q8QBzgqDhiM5is3Mk04gP_eAbiXBKJwO=w1920-h877-iv1"
   alt="GDP"
   style={{ width: "100px", height: "auto",
     paddingTop:"10px"
