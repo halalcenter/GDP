@@ -16,7 +16,7 @@ const About = () => {
 GDP, RGPV Bhopal is an innovative and dynamic student committee dedicated to fostering growth, skill
 development, and leadership across multiple domains. The committee is divided into five specialized
 departments, each working towards creating an impactful and collaborative environment for students to grow
-professionally and pers
+professionally and personally
           </p>
         </motion.div>
 
