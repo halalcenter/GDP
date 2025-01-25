@@ -11,22 +11,22 @@ export const galleryImages = [
   },
   {
     id: 3,
-    src: "/gallery/flower.jpg",
+    src: "https://lh3.google.com/u/2/d/1GLAG8INo90LrbllOAuUbaEd997ElbvJV=w2000-h3276-iv1",
     alt: "Nature Detail"
   },
   {
     id: 4,
-    src: "/gallery/logo.jpg",
+    src: "https://lh3.google.com/u/2/d/1lbAKoCEBCR2_CKxWlNTaoo6ltTdLJc0O=w2000-h3276-iv1",
     alt: "GDP Logo"
   },
   {
     id: 5,
-    src: "/gallery/building2.jpg",
+    src: "https://lh3.google.com/u/2/d/1-2ucodFR6y-8gHF8trLN53kBIxOFxVzD=w2000-h3276-iv1",
     alt: "Modern University Building"
   },
   {
     id: 6,
-    src: "/gallery/architecture.jpg",
+    src: "https://lh3.google.com/u/2/d/1-mCAR6DkMaC5BZgSGBhOmEmPfcOUvL0q=w2000-h3276-iv1",
     alt: "Campus Architecture"
   }
 ];
