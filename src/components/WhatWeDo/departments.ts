@@ -10,10 +10,10 @@ export const departments: Department[] = [
   },
   {
     title: "CodAiX",
-    description: "Sta(c)k-e Holder is a wing of community where the memberlearn and understand Data Structure and Algorithm and areskilled and passionate individuals who collaborate to solve complex algorithmic problems under time constraints. Thes teams often participate in contests such as ACM-ICPC, Google Code Jam, Facebook Hacker Cup, and Codeforces competitions, showcasing their technical prowess and teamwork"
+    description: "CodAiX is a wing of community where the memberlearn and understand Data Structure and Algorithm and areskilled and passionate individuals who collaborate to solve complex algorithmic problems under time constraints. Thes teams often participate in contests such as ACM-ICPC, Google Code Jam, Facebook Hacker Cup, and Codeforces competitions, showcasing their technical prowess and teamwork"
   },
   {
-    title: "Graphic Design",
+    title: "GraphiXel",
     description: "The GraphiXel wing of GDP is responsible for bringing visual creativity to life. Members work on creating compelling designs for posters, logos, digital media, and branding materials that reflect the essence of various events, initiatives, and the college's identity. They collaborate closely with the Social Media and Web Development departments to ensure a seamless visual experience across all platform"
   },
   {
