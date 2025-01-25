@@ -9,7 +9,7 @@ export const departments: Department[] = [
     description: "The Dev-Op(s) wing of GDP focuses on learning modern,responsive, and functional websites that serve both academic andextracurricular purposes. Members of this department work onfront-end and back-end development, using technologies likeHTML, CSS, JavaScript, React, and backend framework"
   },
   {
-    title: "STA(C)K-E HOLDER",
+    title: "CodAiX",
     description: "Sta(c)k-e Holder is a wing of community where the memberlearn and understand Data Structure and Algorithm and areskilled and passionate individuals who collaborate to solve complex algorithmic problems under time constraints. Thes teams often participate in contests such as ACM-ICPC, Google Code Jam, Facebook Hacker Cup, and Codeforces competitions, showcasing their technical prowess and teamwork"
   },
   {
