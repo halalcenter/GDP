@@ -1,12 +1,12 @@
 export const galleryImages = [
   {
     id: 1,
-    src: "/gallery/building1.jpg",
+    src: "https://lh3.google.com/u/2/d/1g-hCMA-5uolKuLBogbLaUyIQTjmI3tbl=w2000-h3276-iv1",
     alt: "University Building Interior"
   },
   {
     id: 2,
-    src: "/gallery/field.jpg",
+    src: "https://lh3.google.com/u/2/d/1qWyd0xGJnTwiUOkUgaWJmX3y6So_LiS2=w2000-h3276-iv1",
     alt: "Campus Field"
   },
   {
