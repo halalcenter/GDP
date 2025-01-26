@@ -18,7 +18,7 @@ const WhatWeDo = () => {
 interests, we aim to create a vibrant and supportive environment that drives personal development and fosters community spirit.
 Whether you're a budding developer, a creative designer, a programming enthusiast, or a music lover, GDP offers you the
 platform to develop your passion, enhance your skills. We're not just a committee; we are pioneers in driving growth, inspiring
-creativity, and fostering a spirit of collabor          </p>
+creativity, and fostering a spirit of collaboration!          </p>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-8">
