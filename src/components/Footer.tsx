@@ -14,7 +14,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
             <div className="flex space-x-4">
               <a 
-                href="https://twitter.com/your-handle" 
+                href="https://x.com/GDP_rgpv" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition duration-300"
@@ -22,7 +22,7 @@ const Footer = () => {
                 <FaTwitter size={24} />
               </a>
               <a 
-                href="https://instagram.com/your-handle" 
+                href="https://www.instagram.com/rgpv_gdp/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-gray-300 hover:text-white transition duration-300"
