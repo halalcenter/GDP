@@ -1,3 +1,5 @@
+import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer className="bg-primary text-white py-12">
@@ -5,22 +7,47 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="text-xl font-semibold mb-4">G D P</h3>
-            <p className="text-gray-300">
-            Growth Driven Pioneers
-            </p>
+            <p className="text-gray-300">Growth Driven Pioneers</p>
           </div>
-          <div>
-            
+
+          <div className="flex flex-col items-center">
+            <h3 className="text-xl font-semibold mb-4">Follow Us</h3>
+            <div className="flex space-x-4">
+              <a 
+                href="https://twitter.com/your-handle" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition duration-300"
+              >
+                <FaTwitter size={24} />
+              </a>
+              <a 
+                href="https://instagram.com/your-handle" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition duration-300"
+              >
+                <FaInstagram size={24} />
+              </a>
+              <a 
+                href="#" 
+                className="text-gray-500 cursor-not-allowed"
+                title="Coming Soon!"
+              >
+                <FaLinkedin size={24} />
+              </a>
+            </div>
           </div>
+
           <div>
             <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
             <p className="text-gray-300">
-              Email: gdp.rgpv@gmail.com<br />
-              
+              Email: <a href="mailto:gdp.rgpv@gmail.com" className="hover:underline">gdp.rgpv@gmail.com</a><br />
               Address: RGPV University Campus
             </p>
           </div>
         </div>
+
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-300">© 2025 GDP. All rights reserved.</p>
         </div>
