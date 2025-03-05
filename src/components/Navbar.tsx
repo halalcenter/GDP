@@ -22,10 +22,10 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-700 hover:text-primary">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-primary">About</a>
-            <a href="#what-we-do" className="text-gray-700 hover:text-primary">What We Do</a>
-            <a href="#inkspace" className="text-gray-700 hover:text-primary">InkSpace</a>
+            <a href="#" className="text-gray-700 hover:text-primary scroll-smooth">Home</a>
+            <a href="#about" className="text-gray-700 hover:text-primary scroll-smooth">About</a>
+            <a href="#what-we-do" className="text-gray-700 hover:text-primary scroll-smooth">What We Do</a>
+            <a href="#inkspace" className="text-gray-700 hover:text-primary scroll-smooth">InkSpace</a>
           </div>
 
           {/* Mobile Menu Button */}
