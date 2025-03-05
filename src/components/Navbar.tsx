@@ -5,6 +5,32 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+
+  useEffect(() => {
+    const smoothScroll = (event: Event) => {
+      event.preventDefault();
+      const target = event.currentTarget as HTMLAnchorElement;
+      const targetId = target.getAttribute("href")?.substring(1);
+      const targetElement = document.getElementById(targetId || "");
+
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop - 60, 
+          behavior: "smooth",
+        });
+      }
+    };
+
+    
+    const links = document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]');
+    links.forEach((link) => link.addEventListener("click", smoothScroll));
+
+    
+    return () => {
+      links.forEach((link) => link.removeEventListener("click", smoothScroll));
+    };
+  }, []);
+
   return (
     <nav className="bg-white shadow-lg fixed w-full z-50">
       <div className="max-w-7xl mx-auto px-4">
