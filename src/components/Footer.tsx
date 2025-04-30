@@ -30,9 +30,10 @@ const Footer = () => {
                 <FaInstagram size={24} />
               </a>
               <a 
-                href="#" 
-                className="text-gray-500 cursor-not-allowed"
-                title="Coming Soon!"
+                href="https://www.linkedin.com/company/growth-driven-pioneers/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition duration-300"
               >
                 <FaLinkedin size={24} />
               </a>
