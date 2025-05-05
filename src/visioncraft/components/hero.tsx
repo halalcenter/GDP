@@ -24,11 +24,11 @@ const Hero = () => {
       >
         {/* Background layers */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:hidden"
+          className="absolute inset-0 bg-cover bg-center brightness-125 md:hidden"
           style={{ backgroundImage: "url('/bag.png')" }}
         ></div>
         <div
-          className="absolute inset-0 bg-cover bg-center hidden md:block"
+          className="absolute inset-0 bg-cover bg-center brightness-125 hidden md:block"
           style={{ backgroundImage: "url('/bag.png')" }}
         ></div>
 
