@@ -40,7 +40,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="pl-32">
+          <div className="md:pl-32">
             <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
             <p className="text-gray-300">
               Email: <a href="mailto:gdp.rgpv@gmail.com" className="hover:underline">gdp.rgpv@gmail.com</a>
