@@ -13,7 +13,7 @@ export default {
         'vision-gold': '#EFB73B',
       },
       fontFamily: {
-        neoneon: ['Neoneon', 'cursive'],
+        neoneon: ['Neoneon'],
       },
     },
   },
