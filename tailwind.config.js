@@ -9,6 +9,11 @@ export default {
       colors: {
         primary: "#1a237e",
         secondary: "#0d47a1",
+        'vision-blue': '#103E57',
+        'vision-gold': '#EFB73B',
+      },
+      fontFamily: {
+        neoneon: ['Neoneon', 'cursive'],
       },
     },
   },
