@@ -25,7 +25,7 @@ const features = [
 
 const KeyFeatures = () => {
   return (
-    <section className="px-6 py-14 md:px-20 bg-transparent text-white" id="keyfeatures">
+    <section className="px-6 py-20 md:px-20 bg-transparent text-white" id="keyfeatures">
       <div className="max-w-4xl mx-auto text-center mb-12">
       <motion.h2
           initial={{ opacity: 0, y: 30 }}
