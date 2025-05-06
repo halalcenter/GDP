@@ -27,7 +27,7 @@ const schedule = [
 
 const Timeline = () => {
   return (
-    <section id="timeline" className="bg-transparent text-white py-12 px-4 sm:px-6 md:px-20">
+    <section id="timeline" className="bg-transparent text-white py-20 px-4 sm:px-6 md:px-20">
       <div className="max-w-5xl mx-auto relative">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
