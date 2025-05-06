@@ -110,7 +110,7 @@ const Timeline: React.FC = () => {
   }, []);
 
   return (
-    <section className="bg-transparent text-white py-20 px-4 sm:px-6 md:px-20">
+    <section className="bg-transparent text-white py-20 px-4 sm:px-6 md:px-20" id="timeline">
       <div className="max-w-5xl mx-auto relative">
         <motion.h2
           initial={{ opacity: 0, y: 30 }}
