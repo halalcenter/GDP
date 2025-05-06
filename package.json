@@ -1,5 +1,5 @@
 {
-  "name": "ecell-website",
+  "name": "gdp-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,15 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@types/node": "^22.15.12",
+    "autoprefixer": "^10.4.18",
+    "framer-motion": "^11.0.8",
+    "lottie-react": "^2.4.1",
+    "postcss": "^8.4.35",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.0.1",
     "react-router-dom": "^6.22.3",
-    "tailwindcss": "^3.4.1",
-    "autoprefixer": "^10.4.18",
-    "postcss": "^8.4.35",
-    "framer-motion": "^11.0.8",
-    "lottie-react": "^2.4.1"
+    "tailwindcss": "^3.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
