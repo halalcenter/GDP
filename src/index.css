@@ -10,6 +10,8 @@
 @font-face {
   font-family: 'Neoneon';
   src: url('./assets/fonts/NEONEON.otf') format('opentype');
+  src: url('./assets/fonts/Neoneon.woff') format('woff');
+  src: url('./assets/fonts/Neoneon.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
