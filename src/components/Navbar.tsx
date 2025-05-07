@@ -27,6 +27,7 @@ const Navbar = () => {
             <a href="#what-we-do" className="text-gray-700 hover:text-primary">What We Do</a>
             <a href="#visioncraft" className="text-gray-700 hover:text-primary">Vision Craft</a>
             <a href="#inkspace" className="text-gray-700 hover:text-primary">InkSpace</a>
+            <a href="#footer" className="text-gray-700 hover:text-primary">Contact</a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -73,6 +74,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen(false)}
               >
                 InkSpace
+              </a>
+              <a
+                href="#footer"
+                className="block px-3 py-2 text-gray-700 hover:text-primary"
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
               </a>
             </div>
           </div>
