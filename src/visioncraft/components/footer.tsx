@@ -1,4 +1,4 @@
-import { FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaTwitter, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -36,6 +36,14 @@ const Footer = () => {
                 className="text-gray-300 hover:text-white transition duration-300"
               >
                 <FaLinkedin size={24} />
+              </a>
+              <a
+                href="https://chat.whatsapp.com/CUZNNWBu3mi8ETVw3EoTpB"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white transition duration-300"
+              >
+                <FaWhatsapp size={24} />
               </a>
             </div>
           </div>
