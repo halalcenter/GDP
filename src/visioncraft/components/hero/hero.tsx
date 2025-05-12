@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
-        className="sticky top-0 h-screen w-full flex flex-col items-center justify-center will-change-transform will-change-opacity"
+        className="sticky top-0 h-screen w-full flex brightness-125 flex-col items-center justify-center will-change-transform will-change-opacity"
       >
         {/* Foreground content */}
         <div className="z-10 text-center px-4">
