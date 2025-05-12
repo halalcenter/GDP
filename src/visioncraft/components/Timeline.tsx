@@ -14,7 +14,7 @@ interface ScheduleItem {
 
 const schedule: ScheduleItem[] = [
   {
-    day: 'Day 1',
+    day: 'Day 1 [17/05]',
     date: 'UI/UX Foundations',
     items: [
       'Basics of UI/UX Design',
@@ -25,7 +25,7 @@ const schedule: ScheduleItem[] = [
     ],
   },
   {
-    day: 'Day 2',
+    day: 'Day 2 [18/05]',
     date: 'Advanced UI/UX & Showcase',
     items: [
       'Design Systems',
