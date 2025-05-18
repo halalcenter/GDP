@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import Countdown from "./Countdown";
 
 const Hero: React.FC = () => {
   const containerRef = useRef<HTMLElement>(null);
@@ -57,11 +56,11 @@ const Hero: React.FC = () => {
   transition={{ duration: 0.8, delay: 0.4 }}
   className="bg-vision-gold text-vision-blue font-Helvetica text-lg md:text-xl px-6 py-3 rounded-md hover:bg-vision-blue hover:text-vision-gold transition-all ease-in-out duration-300 shadow-lg z-1"
 >
-  Register Now
+  The event is concluded!
 </motion.a>
 
 
-            <Countdown targetDate={new Date("2025-05-17T12:59:59").getTime()} />
+            
           </div>
         </div>
       </motion.div>
