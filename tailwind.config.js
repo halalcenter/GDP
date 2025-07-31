@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         neoneon: ['Neoneon', 'cursive'],
+        jetbrains: [ 'jetbrains', 'Helvetica'],
       },
     },
   },
