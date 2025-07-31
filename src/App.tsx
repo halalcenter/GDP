@@ -4,6 +4,7 @@ import About from './components/About';
 import WhatWeDo from './components/WhatWeDo';
 import InkSpace from './components/InkSpace/InkSpace';
 import Gallery from './components/Gallery';
+import Codestruct from './components/Events/CodeStruct';
 import Footer from './components/Footer';
 import Visioncraft from './components/Events/VisionCraft';
 
@@ -15,6 +16,7 @@ function App() {
               <About />
               <WhatWeDo />
               <Visioncraft />
+              <Codestruct />              
               <InkSpace />
               <Gallery />
               <Footer />

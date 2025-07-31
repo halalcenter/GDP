@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif, Neoneon;
+  font-family: Inter, system-ui, jetbrains, Avenir, Helvetica, Arial, sans-serif, Neoneon;
   line-height: 1.5;
   font-weight: 400;
 }
@@ -12,6 +12,13 @@
   src: url('./assets/fonts/NEONEON.otf') format('opentype');
   src: url('./assets/fonts/Neoneon.woff') format('woff');
   src: url('./assets/fonts/Neoneon.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'jetbrains';
+  src: url('./assets/fonts/JetBrainsMono[wght].ttf') format('ttf');
+  src: url('./assets/fonts/JetBrainsMono-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
