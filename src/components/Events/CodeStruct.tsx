@@ -37,29 +37,33 @@ const Codestruct: React.FC = () => {
               
           
             <strong>Dive into tech-driven scenarios, sharpen your problem-solving skills, and level up your thinking.</strong>
-                            </p>
-              <p>
+            </p>
+            <p>
               
-              We are excited to unveil VisionCraft – a dynamic 2-day online UI UX design bootcamp hosted
-               by GDP,Graphixel -  a community active in RGPV. With the mission to Inspire, Design, Learn, 
-               and Lead, VisionCraft is your one-stop destination to explore the creative side of technology 
-               and build essential design skills in today’s digital age.
+              Code Struct is a weekly online coding contest series organized by CodeAiX, GDP — an active community in RGPV.
+              This series is designed to go beyond traditional DSA practice. It focuses on real-world inspired problem-solving — 
+              merging core data structures and algorithms with practical tech-based scenarios. 
+
               </p>
               <p>
               
-              In today’s digital-first world, design is not just how it looks—it’s how it works.
-               Whether it's the way a button feels, the flow of an app, or how a user gets from 
-               point A to point B, UI UX design is at the heart of user experience. And that's exactly what VisionCraft is all about.
+              Problem-solving is at the core of all technological innovation — from building scalable systems to designing intelligent solutions.
+              Whether it’s software development, AI, or system design, the ability to think critically and solve complex problems 
+              efficiently is what sets great engineers apart. Code Struct is built to nurture this mindset through challenges rooted
+              in real-world scenarios, helping you grow beyond just theory and code.
+
               </p>
               <p>
               
-              An excellent opportunity to build your portfolio and learn UI/UX fundamentals from UI designing and
-               prototyping to design systems and UX documentation, and all about the design thinking process- 
-               we have got you fully covered to become completely industry ready!
+              CodeStruct is thus an ideal springboard to strengthen your problem-solving skills, explore real-world scenarios, 
+              and grow from a curious beginner to a confident thinker.
+
               </p>
               <p>
               
-              So whether you’re here to learn, explore a career in UI/UX, or just design something awesome—<strong>VisionCraft is your canvas.</strong>
+              Whether you're just a newbie or an Expert,  CodeStruct is your launchpad to <strong>learn, grow, and 
+              collaborate</strong> with a passionate community of problem solvers!
+        
               </p>
               <motion.button
                 className="bg-black text-white px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-all mt-8"
@@ -79,3 +83,4 @@ const Codestruct: React.FC = () => {
 };
 
 export default Codestruct;
+
