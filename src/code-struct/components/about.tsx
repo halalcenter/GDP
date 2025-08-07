@@ -2,28 +2,20 @@ import { motion } from 'framer-motion';
 
 const features = [
   {
-    title: "Design Thinking Mindset",
-    description: "Unlock a creative, user-first approach to problem-solving that bridges design and tech seamlessly.",
+    title: "Real-World Inspired Problems",
+    description: "Encourages thinking beyond abstract DSA toward real-world applicability.",
   },
   {
-    title: "2-Day Online Bootcamp",
-    description: "Hosted by Graphixel (GDP), this bootcamp brings hands-on learning, mentorship, and community.",
+    title: "Concept-Driven Questions",
+    description: "Each problem focuses on a core CS/DSA concept, helps in building a deeper understanding rather than just pattern solving.",
   },
   {
-    title: "From Figma to UX Docs",
-    description: "Master UI/UX essentials like wireframing, prototyping, and building complete design systems.",
+    title: "Realistic Constraints",
+    description: "Problems have limited constraints to allow simulation-focused approaches rather than only brute-force avoidance.",
   },
   {
-    title: "Portfolio Ready",
-    description: "Build real projects, take part in live challenges, and walk away with solid portfolio pieces.",
-  },
-  {
-    title: "2-Day Online Bootcamp",
-    description: "Hosted by Graphixel (GDP), this bootcamp brings hands-on learning, mentorship, and community.",
-  },
-  {
-    title: "2-Day Online Bootcamp",
-    description: "Hosted by Graphixel (GDP), this bootcamp brings hands-on learning, mentorship, and community.",
+    title: "Code Review Based Scoring",
+    description: "Submissions are reviewed manually for clarity, logic, and elegance.",
   },
 ];
 
@@ -46,10 +38,10 @@ const AboutSection = () => {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-center text-gray-950 max-w-3xl mx-auto mb-12 text-lg"
         >
-          VisionCraft is a dynamic 2-day UI/UX bootcamp designed to immerse students and creators into the world of user-centered design. Discover how design works—from buttons to flows—and build skills that prepare you for the digital industry.
+          Step beyond basic coding drills — CodeStruct brings you weekly contests built around real-world challenges. Dive into tech-driven scenarios, sharpen your problem-solving skills, and level up your thinking. Whether you're a beginner or a pro, this is your arena to learn, grow, and thrive.
         </motion.p>
 
-        <div className="grid gap-y-8 gap-x-8 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-y-8 gap-x-8 md:grid-cols-2">
   {features.map((feature, idx) => (
     <motion.div
       key={idx}
@@ -75,3 +67,4 @@ const AboutSection = () => {
 };
 
 export default AboutSection;
+
