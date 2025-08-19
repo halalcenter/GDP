@@ -3,39 +3,40 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 const faqs = [
   {
-    question: 'Who should attend VisionCraft?',
+    question: 'Who can participate in CodeStruct?',
     answer:
-      'Students curious about digital design, developers aiming to upskill in front-end, and creators wanting to build intuitive, user-friendly products will benefit the most.',
+      'Anyone looking to boost their problem-solving skills and grow through real-world challenges — from beginners to pros — is welcome at CodeStruct!',
   },
   {
-    question: 'Is the event beginner-friendly?',
+    question: 'What skill level should I be at?',
     answer:
-      'Absolutely! Whether you’re just exploring UI/UX or already on your journey, VisionCraft offers a guided and interactive learning experience for all skill levels.',
+      'We\'ve designed the problems over a wide range of difficulties to accommodate many skill levels. If you\'re familiar with if-conditions, loops, strings, and integers, you can start solving problems!',
   },
   {
-    question: 'What will I learn during the bootcamp?',
+    question: 'How many questions are there? What are they like?',
     answer:
-      'You’ll explore design thinking, UI/UX fundamentals, hands-on Figma sessions, and portfolio-building strategies—all under the guidance of design professionals.',
+      'There are typically 5 to 6 questions in each contest, ranging from easy to challenging. The format loosely follows the Codeforces-style pattern — designed to test logic, problem-solving, and real-world application of concepts.',
   },
+  //  TODO:- Answer this question!!
   {
-    question: 'How is VisionCraft conducted?',
+    question: 'How is CodeStruct conducted? ',
     answer:
       'VisionCraft is a 100% online event hosted via Google Meet. You can join from anywhere and learn from the comfort of your space.',
   },
   {
-    question: 'Why should I attend VisionCraft?',
+    question: 'Is CodeStruct a solo or team-based contest?',
     answer:
-      'Design is more than aesthetics—it’s about solving problems. VisionCraft equips you with the mindset, tools, and confidence to design smarter and with impact.',
+      'CodeStruct is designed for individual participation. Each participant competes solo to encourage personal growth, independent problem-solving, and to help sharpen core logical thinking skills.',
   },
   {
-    question: 'Is there any registration fee?',
+    question: 'Is there any entrance fee?',
     answer:
-      'The event has limited seats, and details are available on the registration page. Reserve your spot early to ensure participation!',
+      'Nope, it\'s absolutely free! Just bring your curiosity and passion to learn — we’ve got the rest covered.',
   },
   {
-    question: 'Will I get a certificate?',
+    question: 'Still have questions?',
     answer:
-      'Yes! Participants who attend the bootcamp and complete the activities will receive a certificate of participation and be eligible for exciting rewards.',
+      'Join our whatsapp community now!!',
   },
 ];
 
@@ -53,7 +54,7 @@ const FAQSection = () => {
           Frequently Asked Questions
         </h2>
         <p className="text-gray-900 text-lg">
-          Got questions? We've got answers—whether you’re a newbie or an experienced creator.
+          Stuck somewhere? CodeStruct is here—guiding both curious beginners and seasoned coders.
         </p>
       </div>
 
@@ -92,3 +93,4 @@ const FAQSection = () => {
 };
 
 export default FAQSection;
+
