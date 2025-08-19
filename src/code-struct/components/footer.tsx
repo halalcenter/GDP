@@ -38,7 +38,7 @@ const Footer = () => {
                 <FaLinkedin size={24} />
               </a>
               <a
-                href="https://chat.whatsapp.com/CUZNNWBu3mi8ETVw3EoTpB"
+                href="https://chat.whatsapp.com/I96cZRyjHHIAlYcZn5sdum"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-700 hover:text-gray-300 transition duration-300"
@@ -65,5 +65,6 @@ const Footer = () => {
     </footer>
   );
 };
+
 
 export default Footer;
